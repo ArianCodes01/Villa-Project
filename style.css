@@ -25,10 +25,6 @@ h6 {
     margin: 0 auto;
 }
 
-.section {
-    padding: 7em 0;
-}
-
 /* hero section */
 
 .hero-section {
@@ -273,7 +269,7 @@ h6 {
     margin-top: -500px;
     background-image: url('./image/blog-post-section-bg');
     padding: 500px 60px 100px;
-}   
+}
 
 .blog-post-item {
     background: #fff;
@@ -310,4 +306,48 @@ h6 {
 
 .bottom-content h2:hover {
     color: #e61c5d;
+}
+
+/* TESTIMONIALS SECTION */
+
+.testimonials-section {
+    padding: 7rem 0;
+}
+.testimonials-section .section-top{
+    margin-bottom: 60px;
+}
+
+.testimonial-item {
+    text-align: center;
+}
+
+.author-image {
+    margin-bottom: 1rem;
+}
+
+.author-image img {
+    border-radius: 50%;
+    width: 70px;
+    vertical-align: middle;
+}
+
+.testimonial-item blockquote {
+    margin: 0 0 1rem;
+    max-width: 350px;
+    text-align: center;
+    display: inline-block;
+}
+
+.testimonial-item blockquote p {
+    line-height: 1.5;
+    font-family: "Playfair+Display", times, serif;
+    font-size: 20px;
+    color: #000;
+    font-style: italic;
+}
+
+.author em {
+    font-style: italic;
+    color: #6c757d;
+    font-weight: 100;
 }
