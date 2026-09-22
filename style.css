@@ -25,6 +25,10 @@ h6 {
     margin: 0 auto;
 }
 
+.hide {
+    display: none !important;
+}
+
 /* hero section */
 
 .hero-section {
@@ -126,6 +130,65 @@ h6 {
     }
 }
 
+/* SIDEBAR */
+
+.sidebar {
+    background-color: white;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    left: -300px;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+    padding: 30px 20px;
+    transition: all 0.2s ease;
+}
+
+.main-ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.main-ul li {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main-ul li:hover {
+    color: #e61c5d;
+}
+
+.sidebar h3 {
+    font-family: "Mukta Mahee", arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: .2em;
+    color: #adb5bd;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.sidebar div p {
+    margin-bottom: 1rem;
+    color: #5e5e5e;
+}
+
+.sidebar div ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sidebar div ul li {
+    color: #5e5e5e;
+    cursor: pointer;
+}
+
 /* VISIT SECTION */
 
 .visit-section {
@@ -186,6 +249,7 @@ h6 {
 }
 
 /* SLIDER SECTION  */
+
 .slider-section {
     margin-bottom: 170px;
 }
@@ -286,7 +350,7 @@ h6 {
     width: 100%;
 }
 
-.bottom-content {
+.blog-post-section .bottom-content {
     padding: 10px 30px;
 }
 
@@ -471,9 +535,11 @@ footer .list li:hover {
 .bordertop .colorlib:hover {
     color: white;
 }
-.social-icons a span{
+
+.social-icons a span {
     transition: all 0.3s ease;
 }
-.social-icons a span:hover{
+
+.social-icons a span:hover {
     color: white;
 }

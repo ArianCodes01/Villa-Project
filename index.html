@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Villa Project</title>
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="responsive.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
@@ -19,7 +19,8 @@
             <div class="hero-top">
                <h4 class="logo"><i>Villa</i></h4>
 
-               <i class="fa-solid fa-bars"></i>
+               <i class="fa-solid fa-bars" id="barsIcon"></i>
+               <i class="fa-solid fa-x hide" id="XIcon"></i>
             </div>
 
             <div class="hero-content">
@@ -39,6 +40,32 @@
          </div>
       </div>
    </section>
+
+   <aside class="sidebar" id="sideBar">
+      <ul class="main-ul">
+         <li>Home</li>
+         <li>Hotel</li>
+         <li>About</li>
+         <li>Blog</li>
+         <li>Contact</li>
+      </ul>
+
+      <div style="margin-bottom: 30px;">
+         <h3>Contact Info</h3>
+         <p>98 West 21th Street, Suite 721 <br> New York NY 10016</p>
+         <p>info@yourdomain.com</p>
+         <p>(+1) 435 3533</p>
+      </div> 
+
+      <div>
+         <h3>Connect With Us</h3>
+         <ul>
+            <li>Twitter</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+         </ul>
+      </div>
+   </aside>
 
    <section class="visit-section">
       <div class="container">
@@ -391,6 +418,8 @@
          loop: true
       });
    </script>
+
+   <script src="app.js"></script>
 </body>
 
 </html>
